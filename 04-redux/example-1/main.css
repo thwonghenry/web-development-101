@@ -1,0 +1,16 @@
+h1 {
+  color: white;
+}
+
+.list-item {
+  color: rgb(115, 115, 194);
+}
+.list-item:hover {
+  color: rgb(154, 169, 211);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.counter {
+  color: rgb(77, 177, 155);
+}

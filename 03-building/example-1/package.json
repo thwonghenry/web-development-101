@@ -10,9 +10,9 @@
     "react-dom": "^16.2.0",
     "webpack": "^3.10.0"
   },
-  "name": "web-development-101-03-building-example-1",
+  "name": "web-development-101-03-building-example-2",
   "version": "1.0.0",
-  "description": "Transpile and bundle to main.js with webpack and babel",
+  "description": "Transpile and bundle to main.js with webpack and babel with eslint",
   "main": "index.js",
   "author": "Hin Wong",
   "license": "MIT",
