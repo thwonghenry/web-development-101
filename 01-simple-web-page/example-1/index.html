@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Hello world</title>
+    <meta name="description" content="Hello world">
+    <meta name="author" content="Hin Wong">
+
+    <style>
+        .list-item {
+            color: blue;
+        }
+        .list-item:hover {
+            color: aqua;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World!</h1>
+    <ul>
+        <li class="list-item">
+            First item
+        </li>
+        <li class="list-item">
+            Second item
+        </li>
+    </ul>
+    <script>
+        Array.from(document.getElementsByClassName('list-item')).forEach((e, index) => {
+            e.addEventListener('click', () => alert(`Clicked item number ${index + 1}`));
+        });
+    </script>
+</body>
+</html>
