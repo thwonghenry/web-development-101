@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "name": "web-development-101-03-building-example-1",
+  "version": "1.0.0",
+  "description": "Transpile and bundle to main.js with webpack and babel",
+  "main": "index.js",
+  "author": "Hin Wong",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  }
+}
