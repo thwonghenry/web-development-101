@@ -17,6 +17,6 @@
   "author": "Hin Wong",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --watch"
   }
 }
